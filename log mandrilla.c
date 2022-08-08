@@ -19,10 +19,6 @@ void main()
 	for(i=0;i<256;i++){
 		for(j=0;j<256;j++){
 			m=c*log(a[i][j]+1);
-			/*if(m>255)
-				b[i][j]=m-255;
-			else
-				b[i][j]=m;*/
 			t=m/255;
 			for(x=0;x<t;x++)
 				m=m-255;
@@ -34,7 +30,6 @@ void main()
 			fprintf(fq,"%d ",b[i][j]);
 		}
 	}
-	//fscanf(fp,"%d",&k);
 	fclose(fp);
 	fclose(fq);
 }
