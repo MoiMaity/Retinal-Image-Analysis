@@ -17,22 +17,6 @@ main()
 			scanf("%d",&a[i][j]);
 		}
 	}
-	/*for(i=0;i<3;i++)			//top and bottom
-	{
-		for(j=0;j<3;j++)
-		{
-			b[i][j]=a[i][j+3];
-			b[i][j+3*(3-1)]=a[i][i+3*(3-1)-3];
-		}
-	}
-	for(j=0;j<3;j++)			//left and right
-	{
-		for(i=0;i<3;i++)
-		{
-			b[i*3][j]=a[i*3+1][j];
-			b[i*3+3-1][j]=a[i*3+3-2][j];
-		}
-	}*/
 	for(i=0;i<row;i++)
 	{
 		for(j=0;j<col;j++)
